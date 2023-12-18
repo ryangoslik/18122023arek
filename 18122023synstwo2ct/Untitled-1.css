@@ -1,0 +1,31 @@
+body{
+    background-color:cadetblue;
+}
+
+.zapytanie1{
+color: brown;
+font-family: 'Courier New', Courier, monospace;
+font-size: 16px;
+border: 1px solid brown;
+border-radius: 15px;
+padding: 15px;
+margin-bottom: 5px;
+}
+.zapytanie2{
+    color:greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    border: 1px solid burlywood;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+.zapytanie3{
+    color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 5px;
+}

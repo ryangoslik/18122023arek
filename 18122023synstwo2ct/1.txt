@@ -1,0 +1,4 @@
+SELECT autorzy.name, ksiazki.nazwa FROM autorzy JOIN ksiazki ON autorzy.IDA = ksiazki.IDA GROUP BY autorzy.name;
+SELECT autorzy.nazwa, ksiazki.nazwa FROM autorzy INNER JOIN ksiazki ON autorzy.IDA = ksiazki.IDA GROUP BY autorzy.name;
+SELECT autorzy.nazwa, ksiazki.nazwa FROM autorzy LEFT JOIN ksiazki ON autorzy.IDA = ksiazki.IDA GROUP BY autorzy.name;
+SELECT autorzy.nazwa, ksiazki.nazwa FROM autorzy RIGHT JOIN ksiazki ON autorzy.IDA = ksiazki.IDA GROUP BY autorzy.name;
